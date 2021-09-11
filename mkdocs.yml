@@ -17,8 +17,7 @@ markdown_extensions:
     - nl2br
     - mdx_math
     - attr_list
-# Reading: 📖
-# Video: 📺
 nav:
     - index.md
     - syllabus.md
+    - "Canvas": 'https://middlebury.instructure.com/courses/9217'
