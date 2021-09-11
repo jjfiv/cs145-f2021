@@ -16,9 +16,8 @@ An online, always up-to-date version of [this syllabus can be found online](http
     - Z - 75SHS 202 - Friday - 1:45-2:35p
 - Office Hours
     - Office Hours or "Student Hours" are times when I am available for you to discuss aspects of the course, Computer Science, Middlebury, your plans, your questions about college in general, or really anything else I might be able to help with.
-    - Always by appointment: 
-        - [Schedule a 15, 20 or 30-minute meeting with me](https://calendly.com/jjfoley). Calendly is a service that lets you drop a meeting on my calendar whenever I'm free. I will guarantee I can make anything with 24 hours notice, but I will try my best with anything sooner.
-        - Message me in Slack and we can find a time to chat if those normal business hours don't work for you.
+    - I will discuss the best modality for regular office hours with students during the first week.
+    - Always by appointment; Drop me an email if you want to meet outside of class.
 
 ## Course Description
 
@@ -109,7 +108,7 @@ The project for the week will be released Friday mornings (or sometimes late Thu
 
 ### Deadline Conflicts
 
-While projects are formally due every Friday evening, if you have recurring family or work responsibilities on Fridays, please let the instructor know as soon as possible, and we can work out a more feasible deadline for your situation. The value in a schedule is not usually the exact hard deadlines but rather in ensuring that our learning proceeds together, at a reasonable pace. The other importance of deadlines is ensuring that the graders and myself can get you timely and helpful feedback!
+While projects are formally due every Wednesday, if you have recurring family or work responsibilities on Wednesdays, please let the instructor know as soon as possible, and we can work out a more feasible deadline for your situation. The value in a schedule is not usually the exact hard deadlines but rather in ensuring that our learning proceeds together, at a reasonable pace. The other importance of deadlines is ensuring that the graders and myself can get you timely and helpful feedback!
 
 ## Grading Information
 
@@ -117,9 +116,9 @@ The following grading structure is meant to emphasize the importance of weekly r
 
 Section | Weighting
 --------|----------
-Classwork | 10%
+Readings & Homework | 20%
 Projects | 40%
-Midterms | 30%
+Midterm | 20%
 Final | 20%
 
 Because homework may be perfected and resubmitted through our lab sections, it may be fair to characterize "Readings & Homeworks" as discussion or participation.
@@ -158,7 +157,24 @@ If there is any change that can be made to the course materials that would impro
 
 I will often be comparing this course to a foreign language course. Learning about computers via a computer language like Python is quite similar to learning a second or third language; if you do not read, write, and speak the language, it will be difficult to make sense of concepts or to get the ideas to stick in your head.
 
-To guide and demonstrate good learning practice, each of our lectures will be accompanied by a handful of (mostly) multiple choice questions. These questions will be more difficult than those designed for exams, because the goal of them is to drive experimentation and discussion, rather than to check knowledge. I will freely discuss the correct answers to these questions in our synchronous time, but they will not be graded aside from participation.
+To guide and demonstrate good learning practice, each of our readings will be accompanied by a handful of (mostly) multiple choice questions. These questions will be more difficult than those designed for exams, because the goal of them is to drive experimentation and discussion, rather than to check knowledge. I will freely discuss the correct answers to these questions in our synchronous labs, after which you will have the opportunity to update your answers.
+
+I imagine that a successful strategy to learn from the homework & readings will be to:
+
+1. Read the chapters and take some notes.
+2. Attempt the "homework quizzes".
+    - Try to assess your knowledge/notes: keep the book "closed". 
+    - Guess on questions that ask "What does this code do?"
+3. Use your experience of homework to guide your learning:
+    - Re-read any sections on which you do not feel you know the correct answers.
+    - Type in and run any code from the homework to verify whether your guesses are correct.
+4. Review the homework again, updating your answers based on your closer reading.
+5. Ask questions and share knowledge on Slack. 
+    - I will be fairly quiet here (focusing on clarifications, and giving thumbs-up to good discussions).
+6. Ask questions synchronously in lab.
+7. "Perfect" your homework answers & notes after lab.
+
+When projects become available on Wednesdays, you'll want to be wrapping up your knowledge from the readings so that you will be ready to work on the new assignment in the second half of lab.
 
 ## Inclusivity & Discussions
 
@@ -170,6 +186,12 @@ It is important to me to create an inclusive learning environment where diversit
 
 You belong in this class and in the computer science department. Thank you for being here and for contributing to this course. 
 
+### Discussions should be Respectful
+
+We will be using slack for the majority of course communication, as well as discussion of homework and reading questions. It is often difficult to convey tone -- especially with sarcasm or jokes -- in writing. We should all strive to be clear, welcoming, and respectful of others at all times.
+
+Everyone is coming to this course with different backgrounds, and there is definitely no such thing as a "silly" question. If you are sharing your knowledge with others, or seeking their knowledge you must do so respectfully.
+
 ### Pronouns and Identity
 
 I will use your preferred gender pronouns and name, and I expect you to use the names and pronouns your classmates prefer. (I understand that some students may be in the process of exploring their gender identity, may not feel comfortable sharing a gender pronoun, or may not go by gender pronouns; you can let me know if you do not want to share a gender pronoun.)
@@ -177,3 +199,51 @@ I will use your preferred gender pronouns and name, and I expect you to use the 
 ## Preliminary Schedule
 
 This is quite a strange semester and time in the world -- this schedule represents my best guess about the future -- something will likely require some changes. Check the online version of the syllabus for the latest.
+
+Remember that Tuesdays and Thursdays (T/R) are lectures and Fridays are labs.
+
+| Week # | Date | DOW | Meeting | Lecture Topic |
+|--------|------|-----|---------|---------------|
+| 1  | 14-Sep | T | What is CS? Expressions | 
+|    | 16-Sep | R | Variables & Function Calls | 
+|    | 17-Sep | F | Proj. 1 | 
+| 2  | 21-Sep | T | Conditionals & Functions | 
+|    | 23-Sep | R | More Functions | 
+|    | 24-Sep | F | Proj. 2 | 
+| 3  | 28-Sep | T | Turtle; Loops | 
+|    | 30-Sep | R | More Loops | 
+|    | 1-Oct  | F | Proj. 3 | 
+| 4  | 5-Oct  | T | Strings | 
+|    | 7-Oct  | R | Lists | 
+|    | 8-Oct  | F | Midterm 1 | 
+| 5  | 12-Oct | T | Files | 
+|    | 14-Oct | R | Immutable vs. Mutable | 
+|    | 15-Oct | F | Proj. 4 | 
+| 6  | 19-Oct |   | MIDTERM RECESS | 
+|    | 21-Oct | R | Aliasing & Memory | 
+|    | 22-Oct | F | Proj. 5 | 
+| 7  | 26-Oct | T | Sets | 
+|    | 28-Oct | R | Dictionaries | 
+|    | 29-Oct | F | Proj. 6 | 
+| 8  | 2-Nov  | T | Recursion | 
+|    | 4-Nov  | R | More Recursion | 
+|    | 5-Nov  | F | Proj. 7 | 
+| 9  | 9-Nov  | T | Application: HMM | 
+|    | 11-Nov | R | Catch-up / Review | 
+|    | 12-Nov | F | Midterm 2 | 
+| 10 | 16-Nov | T | Classes & Objects | 
+|    | 18-Nov | R | More Classes & Objects | 
+|    | 19-Nov | F | Proj. 8 | 
+| 11 | 23-Nov | T | Hardware | 
+|    | 25-Nov |   | THANKSGIVING | 
+|    | 26-Nov |   | THANKSGIVING | 
+|    | 30-Nov | T | Complexity & Sorting | 
+|    | 2-Dec  | R | More Sorting & More Lists | 
+| 12 | 3-Dec  | F | Proj. 9 | 
+| 13 | 7-Dec  | T | Application: Website | 
+|    | 9-Dec  | R | Catch-up / Review | 
+|    | 10-Dec | F | Review | 
+|    |        |   |  | 
+|    | 13-Dec |   | Reading Day | 
+|    | 14-Dec |   | Finals Start | 
+|    | 17-Dec |   | Finals End | 
