@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="John Foley <johnf@middlebury.edu>">
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Syllabus - Introduction to Computing</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Syllabus";
+    var mkdocs_page_input_path = "syllabus.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+<style>
+    blockquote {
+        font-style: italic;
+    }
+</style>
+<script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+<script type="text/x-mathjax-config;executed=true">
+        MathJax.Hub.Config({
+            config: ["Accessible.js", "Safe.js"],
+            errorSettings: { message: ["!"] },
+            skipStartupTypeset: true,
+            messageStyle: "none"
+        });
+    </script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="icon icon-home"> Introduction to Computing</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="index.html">CS145: Introduction to Computing</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="syllabus.html">Syllabus</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#course-description">Course Description</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#course-modalities">Course Modalities</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tatutoring-sessions">TA/Tutoring Sessions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#course-topics">Course Topics</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#course-content">Course Content</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#online-resources">Online Resources</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#inclusivity-in-python-materials">Inclusivity in Python Materials</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#course-equipment-software">Course Equipment &amp; Software</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#computer-laptop-access">Computer / Laptop Access</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#zoom">Zoom</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#python-via-thonny">Python via Thonny</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#online-python-access">Online Python Access</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#course-structure">Course Structure</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#weekly-project-dates">Weekly Project Dates</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#tuesdays-thursdays">Tuesdays &amp; Thursdays:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#fridays-projects-due-available">Fridays: Projects Due &amp; Available</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#deadline-conflicts">Deadline Conflicts</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#grading-information">Grading Information</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#academic-honesty-at-middlebury">Academic Honesty at Middlebury</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#academic-honesty-cs">Academic Honesty &amp; CS</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#universal-access-accommodations">Universal Access &amp; Accommodations</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#student-expectations-learning-strategy">Student Expectations / Learning Strategy</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#inclusivity-discussions">Inclusivity &amp; Discussions</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#discussions-should-be-respectful">Discussions should be Respectful</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#pronouns-and-identity">Pronouns and Identity</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#preliminary-schedule">Preliminary Schedule</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Introduction to Computing</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Syllabus</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/jjfiv/cs145-f2021/tree/master/src/syllabus.md"
+          class="icon icon-github"> Edit on Github</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="syllabus">Syllabus</h1>
+<p>An online, always up-to-date version of <a href="http://jjfiv.github.io/cs145-f2021/syllabus.html">this syllabus can be found online</a>.</p>
+<ul>
+<li>Instructor: <ul>
+<li>Prof. John Foley (<a href="mailto:johnf@middlebury.edu">johnf@middlebury.edu</a>)</li>
+</ul>
+</li>
+<li>Course Website: <ul>
+<li><a href="http://go.middlebury.edu/cs145/">go/cs145</a></li>
+</ul>
+</li>
+<li>Lectures / Discussions: <ul>
+<li>A - 75SHS 224 - Tuesday/Thursday - 9:30a-10:45a</li>
+<li>B - 75SHS 224 (or online) - Tuesday/Thursday - 11:00a-12:15p</li>
+</ul>
+</li>
+<li>Lab Sections<ul>
+<li>W - Online - Friday - 8:00-8:50a</li>
+<li>X - 75SHS 203 - Friday - 9:05-9:55a</li>
+<li>Y - 75SHS 202 - Friday - 12:30-1:20p</li>
+<li>Z - 75SHS 202 - Friday - 1:45-2:35p</li>
+</ul>
+</li>
+<li>Office Hours<ul>
+<li>Office Hours or "Student Hours" are times when I am available for you to discuss aspects of the course, Computer Science, Middlebury, your plans, your questions about college in general, or really anything else I might be able to help with.</li>
+<li>I will discuss the best modality for regular office hours with students during the first week.</li>
+<li>Always by appointment; Drop me an email if you want to meet outside of class.</li>
+</ul>
+</li>
+</ul>
+<h2 id="course-description">Course Description</h2>
+<blockquote>
+<p>In this course we will provide a broad introductory overview of the discipline of computer science, with no prerequisites or assumed prior knowledge of computers or programming. A significant component of the course is an introduction to algorithmic concepts and to programming using Python; programming assignments will explore algorithmic strategies such as selection, iteration, divide-and-conquer, and recursion, as well as introducing the Python programming language. Additional topics will include: the structure and organization of computers, the Internet and World Wide Web, abstraction as a means of managing complexity, social and ethical computing issues, and the question "What is computation?" (Juniors and Seniors by waiver) (formerly CSCI 0101) 3 hr. lect./1 hr. lab</p>
+<p><a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FCSCI0145">CSCI 0145 Middlebury Course Catalog</a></p>
+</blockquote>
+<h2 id="course-modalities">Course Modalities</h2>
+<ul>
+<li><strong><em>Lectures will be available "Hyflex", that is: in-person and remotely</em></strong>. We will have lectures consisting of presentations, discussions, and in-class exercises / questions.</li>
+<li><strong><em>Labs will be run in-person, except for lab W</em></strong> with a focus on supporting the weekly independent programming assignments ("projects"). In a way, they will be like focused, mandatory office-hours.</li>
+</ul>
+<h2 id="tatutoring-sessions">TA/Tutoring Sessions</h2>
+<p>Information about the tutors can be found at <a href="http://go.middlebury.edu/cstutors/">go/cstutors</a>.</p>
+<p><strong><em>Temporary</em></strong>: There is usually tutoring every day from Sunday-Thursday, i.e., every night except Fridays and Saturdays. Tutors are your near-peers: Middlebury students who have completed this course in the past and are available for you to talk through ideas, problems, and technology.</p>
+<h2 id="course-topics">Course Topics</h2>
+<p>This is an introductory computer science class and <strong><em>no prior experience is expected or required</em></strong>. It is one of a few different entry points (CS10x, CS150) into the CS major. We will do a lot of programming, and you will learn and practice a fair amount of Python, but this is an introduction to computer science, not a "Python" class. There is a lot of Python that we will not cover. Topics that we will cover include:</p>
+<ul>
+<li>Abstraction, algorithms, and program design</li>
+<li>Basic Python programming: variables, conditionals, loops, functions, and classes</li>
+<li>Fundamental programming paradigms: functional, imperative, object-oriented</li>
+<li>Data representation and storage</li>
+<li>Computer architecture</li>
+<li>Program complexity</li>
+</ul>
+<h2 id="course-content">Course Content</h2>
+<p>The primary mode of content delivery will be through readings and the homework, which is designed to highlight and encourage discussion over particular aspects of the readings. </p>
+<h3 id="online-resources">Online Resources</h3>
+<p>There are probably hundreds of introductory Computer Science and Python courses available online (free or paid) and so at various points we have the opportunity to supplement our knowledge with online resources. </p>
+<p>If I find resources I find particularly helpful, I will be sharing them via Canvas. Please do the same, if you find resources that answer your own questions.</p>
+<h3 id="inclusivity-in-python-materials">Inclusivity in Python Materials</h3>
+<p>While the internet has a wide variety of Python and other programming materials, often, the examples leave much to be desired -- creatively, many examples, even in official python documentation, are drawn from the comedy routines of the British surrealist comedians "<a href="https://en.wikipedia.org/wiki/Monty_Python">Monty Python</a>" ...</p>
+<p>To someone who's never seen any of their material (like me, the instructor!) that means that some examples you will find are often filled with gibberish that I don't find particularly helpful or funny.</p>
+<h2 id="course-equipment-software">Course Equipment &amp; Software</h2>
+<p>Since this course will be run virtually we will need to use software in addition to the course-specific software we would ordinarily setup and use.</p>
+<h3 id="computer-laptop-access">Computer / Laptop Access</h3>
+<p>If you have any questions about computer access, please don't hesitate to contact me ASAP - <a href="mailto:johnf@middlebury.edu">johnf@middlebury.edu</a> - there are options through both the College and Department. Some more details are below, but I'm happy to help you navigate these systems.</p>
+<blockquote>
+<p>If you ever find yourself temporarily in need of a laptop, the Computer Science department has 10 rotating Dell laptops available to our students. These come pre-installed with software for most of the courses in the major. They are available to be loaned out short-term or long-term. Please get in touch ahead of time if you think you might need one. Due to COVID-19, short-term loans may be trickier than usual.</p>
+<p><strong><em>On Long-Term Use:</em></strong> College policy has changed recently to include the expectation for every student to have a laptop available. The college provides laptops to those who need them where “need” is based on Student Financial Services calculations. If you anticipate needing a laptop for the whole term, we encourage you to inquire with Student Financial Services and the library first due to our smaller pool of equipment. However, our department commits to meeting the needs of every student, so do not be afraid to reach out if you believe you need one of our laptops for any length of time. <br />
+</p>
+</blockquote>
+<h3 id="zoom">Zoom</h3>
+<p>Our course lectures will be 'broadcast' over Zoom, so that missing class for any health concerns is encouraged. If you feel under the weather, participate remotely, and follow college guidelines on testing.</p>
+<h3 id="python-via-thonny">Python via Thonny</h3>
+<p>We will install <a href="https://thonny.org/">Thonny</a> - a program to help us learn to write Python in the first week and use it throughout the course. There are installers for Mac, Windows, &amp; Linux.</p>
+<p>If you have any trouble getting this installed, reach out in Slack or in Tutoring hours.</p>
+<h4 id="online-python-access">Online Python Access</h4>
+<p>If you have a Chromebook or cannot install Thonny (please consult with the instructor if this is the case), you will also be able to access Python through a website like <a href="https://repl.it/languages/python3">repl.it</a>. This kind of access to Python will be far less convenient than having it on your personal computer but may be the best choice.</p>
+<h2 id="course-structure">Course Structure</h2>
+<p>CS145 has two officially scheduled lecture sessions A &amp; B, but you will have been enrolled in a lab section: W, X, Y, or Z. Please only attend the sessions for which you are enrolled.</p>
+<h3 id="weekly-project-dates">Weekly Project Dates</h3>
+<p>In order to simplify our management of the course, the goal is for us to have consistent days each week to expect new material and projects. </p>
+<h4 id="tuesdays-thursdays">Tuesdays &amp; Thursdays:</h4>
+<p>Every Tuesday &amp; Thursday (for the most part) we will have lecture, discussing not only ongoing work, but new ideas. Class time is meant to be interactive, and you should feel empowered to ask questions if information is not clear to you. We will be going over a large number of exercises during class time.</p>
+<h4 id="fridays-projects-due-available">Fridays: Projects Due &amp; Available</h4>
+<p>The project for the week will be released Friday mornings (or sometimes late Thursday evenings) and we will discuss the assignments during lab sessions, and be due the following Friday at midnight.</p>
+<h3 id="deadline-conflicts">Deadline Conflicts</h3>
+<p>While projects are formally due every Wednesday, if you have recurring family or work responsibilities on Wednesdays, please let the instructor know as soon as possible, and we can work out a more feasible deadline for your situation. The value in a schedule is not usually the exact hard deadlines but rather in ensuring that our learning proceeds together, at a reasonable pace. The other importance of deadlines is ensuring that the graders and myself can get you timely and helpful feedback!</p>
+<h2 id="grading-information">Grading Information</h2>
+<p>The following grading structure is meant to emphasize the importance of weekly readings, homework, and projects while also including the midterm and final exams. Midterm and Final exams will likely include questions and ideas drawn directly from the homework and projects.</p>
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Weighting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Readings &amp; Homework</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Projects</td>
+<td>40%</td>
+</tr>
+<tr>
+<td>Midterm</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Final</td>
+<td>20%</td>
+</tr>
+</tbody>
+</table>
+<p>Because homework may be perfected and resubmitted through our lab sections, it may be fair to characterize "Readings &amp; Homeworks" as discussion or participation.</p>
+<h2 id="academic-honesty-at-middlebury">Academic Honesty at Middlebury</h2>
+<blockquote>
+<p>As an academic community devoted to the life of the mind, Middlebury requires of every student complete intellectual honesty in the preparation and submission of all academic work. Details of our Academic Honesty, Honor Code, and Related Disciplinary Policies are available in Middlebury’s handbook.</p>
+<p><a href="http://www.middlebury.edu/academics/administration/curr_inst/teaching-expectations/basic-syllabus">Middlebury College Syllabus Template</a> retrieved 18 August 2020.</p>
+</blockquote>
+<h3 id="academic-honesty-cs">Academic Honesty &amp; CS</h3>
+<p>Work in computer science may often feel like a strange mix of art, language, mathematics, and logic. What sets this course apart from some of these other domains is the ability to instantaneously consult a "gold standard" for most of your work.</p>
+<p><strong><em>Does your python program work?</em></strong> A lot of the time, you can run it immediately, and find out. When we go to assess homework and projects, often we can only tell whether or not it works -- we can't tell if you understand it.</p>
+<p><strong><em>Do you understand your work?</em></strong> Especially in introductory CS courses, where the solutions are usually not that long, you can often land on a solution by making a small change, and not fully understand why it works now and it didn't before. You must take charge of your personal learning. Do not settle for "it works" if you do not understand why -- ask a question!</p>
+<p>When you get the opportunity to discuss your work with other students, ensure that everyone leaves the group discussion with the same level of understanding. <strong><em>A working solution you do not understand has no value to your learning.</em></strong></p>
+<p>Because the solutions to our projects (in this course) are short, and there are limited intro-style problems to choose from, it is likely you will be able to find partial or full solutions to problems using online resources such as google or stack-overflow. <strong><em>A working solution you do not understand has no value to your learning.</em></strong> </p>
+<h2 id="universal-access-accommodations">Universal Access &amp; Accommodations</h2>
+<p>The Disability Resource Center (DRC) at Middlebury provides for student accommodation in courses. </p>
+<blockquote>
+<p>The DRC provides support for students with disabilities and facilitates the accommodations process by helping students understand the resources and options available and by helping faculty understand how to increase access and full participation in courses. The DRC can also provide referrals for students who would like to undergo diagnostic testing. Students who are on financial aid and have never undergone diagnostic testing can apply to the CTLR for support to cover the cost of off-campus testing. DRC services are free to all students.</p>
+</blockquote>
+<p>If you have any accommodations through this office, please notify the instructor as soon as possible at the start of the semester so that your accommodation can be supported as quickly as possible.</p>
+<p>I try to create course materials with "Universal Design" in mind: that is, I try to make it so that all materials can be accomplished fairly by all students: for example, I schedule double the expected time by default on all exams.</p>
+<p>If there is any change that can be made to the course materials that would improve your learning, don't hesitate to ask or suggest such changes.</p>
+<h2 id="student-expectations-learning-strategy">Student Expectations / Learning Strategy</h2>
+<p>I will often be comparing this course to a foreign language course. Learning about computers via a computer language like Python is quite similar to learning a second or third language; if you do not read, write, and speak the language, it will be difficult to make sense of concepts or to get the ideas to stick in your head.</p>
+<p>To guide and demonstrate good learning practice, each of our readings will be accompanied by a handful of (mostly) multiple choice questions. These questions will be more difficult than those designed for exams, because the goal of them is to drive experimentation and discussion, rather than to check knowledge. I will freely discuss the correct answers to these questions in our synchronous labs, after which you will have the opportunity to update your answers.</p>
+<p>I imagine that a successful strategy to learn from the homework &amp; readings will be to:</p>
+<ol>
+<li>Read the chapters and take some notes.</li>
+<li>Attempt the "homework quizzes".<ul>
+<li>Try to assess your knowledge/notes: keep the book "closed". </li>
+<li>Guess on questions that ask "What does this code do?"</li>
+</ul>
+</li>
+<li>Use your experience of homework to guide your learning:<ul>
+<li>Re-read any sections on which you do not feel you know the correct answers.</li>
+<li>Type in and run any code from the homework to verify whether your guesses are correct.</li>
+</ul>
+</li>
+<li>Review the homework again, updating your answers based on your closer reading.</li>
+<li>Ask questions and share knowledge on Slack. <ul>
+<li>I will be fairly quiet here (focusing on clarifications, and giving thumbs-up to good discussions).</li>
+</ul>
+</li>
+<li>Ask questions synchronously in lab.</li>
+<li>"Perfect" your homework answers &amp; notes after lab.</li>
+</ol>
+<p>When projects become available on Wednesdays, you'll want to be wrapping up your knowledge from the readings so that you will be ready to work on the new assignment in the second half of lab.</p>
+<h2 id="inclusivity-discussions">Inclusivity &amp; Discussions</h2>
+<p>It is important to me to create an inclusive learning environment where diversity and individual differences are respected and recognized as a source of strength. However, this must be a team effort so I expect you to join me in fostering such an environment. This class will represent a diversity of individual backgrounds and experiences, and every member is expected to show respect for every other member so that everyone can learn in this space. If you experience or witness any behavior that opposes this idea, it would be helpful for me to know so that I can address it, but I do recognize that this is additional work and may be difficult. If you are comfortable reporting such incidents, there are a few ways you can do so:</p>
+<ul>
+<li>Email or Talk to me</li>
+<li>Report it to our anonymous <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_C43jVM0KDksPt1YfECx8ifWI-UA_l0tTZHYJuYCmQN60ow/viewform?usp=sf_link">CS departmental climate feedback form</a></li>
+<li>Fill out a <a href="https://middlebury-advocate.symplicity.com/public_report/index.php/pid043605?">Bias Incident Report</a> which goes to the Middlebury Community Bias Response Team</li>
+</ul>
+<p>You belong in this class and in the computer science department. Thank you for being here and for contributing to this course. </p>
+<h3 id="discussions-should-be-respectful">Discussions should be Respectful</h3>
+<p>We will be using slack for the majority of course communication, as well as discussion of homework and reading questions. It is often difficult to convey tone -- especially with sarcasm or jokes -- in writing. We should all strive to be clear, welcoming, and respectful of others at all times.</p>
+<p>Everyone is coming to this course with different backgrounds, and there is definitely no such thing as a "silly" question. If you are sharing your knowledge with others, or seeking their knowledge you must do so respectfully.</p>
+<h3 id="pronouns-and-identity">Pronouns and Identity</h3>
+<p>I will use your preferred gender pronouns and name, and I expect you to use the names and pronouns your classmates prefer. (I understand that some students may be in the process of exploring their gender identity, may not feel comfortable sharing a gender pronoun, or may not go by gender pronouns; you can let me know if you do not want to share a gender pronoun.)</p>
+<h2 id="preliminary-schedule">Preliminary Schedule</h2>
+<p>This is quite a strange semester and time in the world -- this schedule represents my best guess about the future -- something will likely require some changes. Check the online version of the syllabus for the latest.</p>
+<p>Remember that Tuesdays and Thursdays (T/R) are lectures and Fridays are labs.</p>
+<table>
+<thead>
+<tr>
+<th>Week #</th>
+<th>Date</th>
+<th>DOW</th>
+<th>Meeting</th>
+<th>Lecture Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>14-Sep</td>
+<td>T</td>
+<td>What is CS? Expressions</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>16-Sep</td>
+<td>R</td>
+<td>Variables &amp; Function Calls</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>17-Sep</td>
+<td>F</td>
+<td>Proj. 1</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>21-Sep</td>
+<td>T</td>
+<td>Conditionals &amp; Functions</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>23-Sep</td>
+<td>R</td>
+<td>More Functions</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>24-Sep</td>
+<td>F</td>
+<td>Proj. 2</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>28-Sep</td>
+<td>T</td>
+<td>Turtle; Loops</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>30-Sep</td>
+<td>R</td>
+<td>More Loops</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>1-Oct</td>
+<td>F</td>
+<td>Proj. 3</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>5-Oct</td>
+<td>T</td>
+<td>Strings</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>7-Oct</td>
+<td>R</td>
+<td>Lists</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>8-Oct</td>
+<td>F</td>
+<td>Midterm 1</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>12-Oct</td>
+<td>T</td>
+<td>Files</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>14-Oct</td>
+<td>R</td>
+<td>Immutable vs. Mutable</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>15-Oct</td>
+<td>F</td>
+<td>Proj. 4</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>19-Oct</td>
+<td></td>
+<td>MIDTERM RECESS</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>21-Oct</td>
+<td>R</td>
+<td>Aliasing &amp; Memory</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>22-Oct</td>
+<td>F</td>
+<td>Proj. 5</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>26-Oct</td>
+<td>T</td>
+<td>Sets</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>28-Oct</td>
+<td>R</td>
+<td>Dictionaries</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>29-Oct</td>
+<td>F</td>
+<td>Proj. 6</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>2-Nov</td>
+<td>T</td>
+<td>Recursion</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>4-Nov</td>
+<td>R</td>
+<td>More Recursion</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>5-Nov</td>
+<td>F</td>
+<td>Proj. 7</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>9-Nov</td>
+<td>T</td>
+<td>Application: HMM</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>11-Nov</td>
+<td>R</td>
+<td>Catch-up / Review</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>12-Nov</td>
+<td>F</td>
+<td>Midterm 2</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>16-Nov</td>
+<td>T</td>
+<td>Classes &amp; Objects</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>18-Nov</td>
+<td>R</td>
+<td>More Classes &amp; Objects</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>19-Nov</td>
+<td>F</td>
+<td>Proj. 8</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>23-Nov</td>
+<td>T</td>
+<td>Hardware</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>25-Nov</td>
+<td></td>
+<td>THANKSGIVING</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>26-Nov</td>
+<td></td>
+<td>THANKSGIVING</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>30-Nov</td>
+<td>T</td>
+<td>Complexity &amp; Sorting</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>2-Dec</td>
+<td>R</td>
+<td>More Sorting &amp; More Lists</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>3-Dec</td>
+<td>F</td>
+<td>Proj. 9</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>7-Dec</td>
+<td>T</td>
+<td>Application: Website</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>9-Dec</td>
+<td>R</td>
+<td>Catch-up / Review</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>10-Dec</td>
+<td>F</td>
+<td>Review</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>13-Dec</td>
+<td></td>
+<td>Reading Day</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>14-Dec</td>
+<td></td>
+<td>Finals Start</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>17-Dec</td>
+<td></td>
+<td>Finals End</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+  <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+    
+    
+    <a href="index.html" class="btn btn-neutral" title="CS145: Introduction to Computing"><span
+        class="icon icon-circle-arrow-left"></span> Previous</a>
+    
+  </div>
+  
+
+  <hr />
+
+  <div style="font-size: 10pt; text-align: center;" role="contentinfo">
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"
+        style="float:left; border-width:0" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-ShareAlike 4.0 International License</a>.
+    <br />
+    Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a
+      href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the
+      Docs</a>.
+  </div>
+
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="index.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
