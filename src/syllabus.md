@@ -6,6 +6,7 @@ An online, always up-to-date version of [this syllabus can be found online](http
     - Prof. John Foley ([johnf@middlebury.edu](mailto:johnf@middlebury.edu))
 - Course Website: 
     - [go/cs145](http://go.middlebury.edu/cs145/)
+    - [Canvas site](https://middlebury.instructure.com/courses/9217)
 - Lectures / Discussions: 
     - A - 75SHS 224 - Tuesday/Thursday - 9:30a-10:45a
     - B - 75SHS 224 (or online) - Tuesday/Thursday - 11:00a-12:15p
@@ -30,6 +31,10 @@ An online, always up-to-date version of [this syllabus can be found online](http
 - ***Lectures will be available "Hyflex", that is: in-person and remotely***. We will have lectures consisting of presentations, discussions, and in-class exercises / questions.
 - ***Labs will be run in-person, except for lab W*** with a focus on supporting the weekly independent programming assignments ("projects"). In a way, they will be like focused, mandatory office-hours.
 
+## Attendance & Masking Policy
+
+As of the start of the semester, Middlebury College is requiring masks for all indoor events. Since our class is an indoor event, we will all be wearing masks under that policy. While the college may lift this restriction at some point this semester, CS145 will maintain a mandatory mask requirement throughout the semester. Anyone wishing to attend without mask restrictions are encouraged to join via Zoom instead of in-person (link available on our [Canvas site](https://middlebury.instructure.com/courses/9217)).
+
 ## TA/Tutoring Sessions
 
 Information about the tutors can be found at [go/cstutors](http://go.middlebury.edu/cstutors/).
@@ -49,7 +54,11 @@ This is an introductory computer science class and ***no prior experience is exp
 
 ## Course Content
 
-The primary mode of content delivery will be through readings and the homework, which is designed to highlight and encourage discussion over particular aspects of the readings. 
+The primary mode of content delivery will be through lectures and the activities during lecture, which is designed to highlight and encourage discussion over particular aspects of the topics under discussion.
+
+### Textbooks
+
+There is no required textbook for this course. A textbook I will likely be referencing is the free ["Foundations of Python Programming"](https://runestone.academy/runestone/books/published/fopp/index.html) which has online activities.
 
 ### Online Resources
 
@@ -61,7 +70,7 @@ If I find resources I find particularly helpful, I will be sharing them via Canv
 
 While the internet has a wide variety of Python and other programming materials, often, the examples leave much to be desired -- creatively, many examples, even in official python documentation, are drawn from the comedy routines of the British surrealist comedians "[Monty Python](https://en.wikipedia.org/wiki/Monty_Python)" ...
 
-To someone who's never seen any of their material (like me, the instructor!) that means that some examples you will find are often filled with gibberish that I don't find particularly helpful or funny.
+To someone who's never seen any of their material (like me, the instructor!) that means that some examples you will find are often filled with gibberish (e.g., many references to "spam") that I don't find particularly helpful or funny for a general audience.
 
 ## Course Equipment & Software
 
@@ -84,7 +93,7 @@ Our course lectures will be 'broadcast' over Zoom, so that missing class for any
 
 We will install [Thonny](https://thonny.org/) - a program to help us learn to write Python in the first week and use it throughout the course. There are installers for Mac, Windows, & Linux.
 
-If you have any trouble getting this installed, reach out in Slack or in Tutoring hours.
+If you have any trouble getting this installed, reach out to me in lab or in Tutoring hours.
 
 #### Online Python Access
 
@@ -159,23 +168,6 @@ I will often be comparing this course to a foreign language course. Learning abo
 
 To guide and demonstrate good learning practice, each of our readings will be accompanied by a handful of (mostly) multiple choice questions. These questions will be more difficult than those designed for exams, because the goal of them is to drive experimentation and discussion, rather than to check knowledge. I will freely discuss the correct answers to these questions in our synchronous labs, after which you will have the opportunity to update your answers.
 
-I imagine that a successful strategy to learn from the homework & readings will be to:
-
-1. Read the chapters and take some notes.
-2. Attempt the "homework quizzes".
-    - Try to assess your knowledge/notes: keep the book "closed". 
-    - Guess on questions that ask "What does this code do?"
-3. Use your experience of homework to guide your learning:
-    - Re-read any sections on which you do not feel you know the correct answers.
-    - Type in and run any code from the homework to verify whether your guesses are correct.
-4. Review the homework again, updating your answers based on your closer reading.
-5. Ask questions and share knowledge on Slack. 
-    - I will be fairly quiet here (focusing on clarifications, and giving thumbs-up to good discussions).
-6. Ask questions synchronously in lab.
-7. "Perfect" your homework answers & notes after lab.
-
-When projects become available on Wednesdays, you'll want to be wrapping up your knowledge from the readings so that you will be ready to work on the new assignment in the second half of lab.
-
 ## Inclusivity & Discussions
 
 It is important to me to create an inclusive learning environment where diversity and individual differences are respected and recognized as a source of strength. However, this must be a team effort so I expect you to join me in fostering such an environment. This class will represent a diversity of individual backgrounds and experiences, and every member is expected to show respect for every other member so that everyone can learn in this space. If you experience or witness any behavior that opposes this idea, it would be helpful for me to know so that I can address it, but I do recognize that this is additional work and may be difficult. If you are comfortable reporting such incidents, there are a few ways you can do so:
@@ -185,12 +177,6 @@ It is important to me to create an inclusive learning environment where diversit
 - Fill out a [Bias Incident Report](https://middlebury-advocate.symplicity.com/public_report/index.php/pid043605?) which goes to the Middlebury Community Bias Response Team
 
 You belong in this class and in the computer science department. Thank you for being here and for contributing to this course. 
-
-### Discussions should be Respectful
-
-We will be using slack for the majority of course communication, as well as discussion of homework and reading questions. It is often difficult to convey tone -- especially with sarcasm or jokes -- in writing. We should all strive to be clear, welcoming, and respectful of others at all times.
-
-Everyone is coming to this course with different backgrounds, and there is definitely no such thing as a "silly" question. If you are sharing your knowledge with others, or seeking their knowledge you must do so respectfully.
 
 ### Pronouns and Identity
 
