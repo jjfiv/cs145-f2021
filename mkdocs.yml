@@ -20,4 +20,5 @@ markdown_extensions:
 # Reading: 📖
 # Video: 📺
 nav:
-    - 'syllabus.md'
+    - index.md
+    - syllabus.md
