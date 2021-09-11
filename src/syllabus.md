@@ -5,7 +5,7 @@ An online, always up-to-date version of [this syllabus can be found online](http
 - Instructor: 
     - Prof. John Foley ([johnf@middlebury.edu](mailto:johnf@middlebury.edu))
 - Course Website: 
-    - [go/cs145](http://go.middlebury.edu/cs145/)
+    - [go/cs145](http://go.middlebury.edu/cs145/) ... links to Canvas.
     - [Canvas site](https://middlebury.instructure.com/courses/9217)
 - Lectures / Discussions: 
     - A - 75SHS 224 - Tuesday/Thursday - 9:30a-10:45a
@@ -31,9 +31,17 @@ An online, always up-to-date version of [this syllabus can be found online](http
 - ***Lectures will be available "Hyflex", that is: in-person and remotely***. We will have lectures consisting of presentations, discussions, and in-class exercises / questions.
 - ***Labs will be run in-person, except for lab W*** with a focus on supporting the weekly independent programming assignments ("projects"). In a way, they will be like focused, mandatory office-hours.
 
-## Attendance & Masking Policy
+## Masking Policy
 
 As of the start of the semester, Middlebury College is requiring masks for all indoor events. Since our class is an indoor event, we will all be wearing masks under that policy. While the college may lift this restriction at some point this semester, CS145 will maintain a mandatory mask requirement throughout the semester. Anyone wishing to attend without mask restrictions are encouraged to join via Zoom instead of in-person (link available on our [Canvas site](https://middlebury.instructure.com/courses/9217)).
+
+## Attendance Policy
+
+While participation is part of your grade, in-person participation being mandatory is not a great idea for public health and safety. Following best guidelines, one should stay home if they have any symptoms. 
+
+Stay home if sick. It won't ever hurt your grade.
+
+Exercises will be structured so that participation is available remotely as well as in-person, for both sections of lecture, even if CS145B is the only one listed as true hyflex.
 
 ## TA/Tutoring Sessions
 
