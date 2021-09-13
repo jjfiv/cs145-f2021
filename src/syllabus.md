@@ -129,16 +129,14 @@ While projects are formally due every Wednesday, if you have recurring family or
 
 ## Grading Information
 
-The following grading structure is meant to emphasize the importance of weekly readings, homework, and projects while also including the midterm and final exams. Midterm and Final exams will likely include questions and ideas drawn directly from the homework and projects.
+The following grading structure is meant to emphasize the importance of participation and projects while also including the midterm and final exams. Midterm and Final exams will likely include questions and ideas drawn directly from the homework and projects.
 
 Section | Weighting
 --------|----------
-Readings & Homework | 20%
-Projects | 40%
-Midterm | 20%
+Participation | 10%
+Projects | 50%
+Midterms | 20%
 Final | 20%
-
-Because homework may be perfected and resubmitted through our lab sections, it may be fair to characterize "Readings & Homeworks" as discussion or participation.
 
 ## Academic Honesty at Middlebury
 
@@ -174,7 +172,7 @@ If there is any change that can be made to the course materials that would impro
 
 I will often be comparing this course to a foreign language course. Learning about computers via a computer language like Python is quite similar to learning a second or third language; if you do not read, write, and speak the language, it will be difficult to make sense of concepts or to get the ideas to stick in your head.
 
-To guide and demonstrate good learning practice, each of our readings will be accompanied by a handful of (mostly) multiple choice questions. These questions will be more difficult than those designed for exams, because the goal of them is to drive experimentation and discussion, rather than to check knowledge. I will freely discuss the correct answers to these questions in our synchronous labs, after which you will have the opportunity to update your answers.
+To guide and demonstrate good learning practice, each of our lectures will be accompanied by a handful of (mostly) multiple choice questions. These questions will be more difficult than those designed for exams, because the goal of them is to drive experimentation and discussion, rather than to check knowledge. I will freely discuss the correct answers to these questions at any time.
 
 ## Inclusivity & Discussions
 
