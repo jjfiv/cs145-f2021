@@ -18,7 +18,9 @@ An online, always up-to-date version of [this syllabus can be found online](http
 - Office Hours
     - Office Hours or "Student Hours" are times when I am available for you to discuss aspects of the course, Computer Science, Middlebury, your plans, your questions about college in general, or really anything else I might be able to help with.
     - I will discuss the best modality for regular office hours with students during the first week.
-    - Always by appointment; Drop me an email if you want to meet outside of class.
+    - IRL; My Office - 75 SHS 218 - Tues/Thurs 2-4pm.
+    - [MWF - Zoom by appointment; via Calendly](https://calendly.com/jjfoley)
+        - Drop me an email if you want to meet outside of business hours.
 
 ## Course Description
 
