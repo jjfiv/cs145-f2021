@@ -127,7 +127,7 @@ The project for the week will be released Friday mornings (or sometimes late Thu
 
 ### Deadline Conflicts
 
-While projects are formally due every Wednesday, if you have recurring family or work responsibilities on Wednesdays, please let the instructor know as soon as possible, and we can work out a more feasible deadline for your situation. The value in a schedule is not usually the exact hard deadlines but rather in ensuring that our learning proceeds together, at a reasonable pace. The other importance of deadlines is ensuring that the graders and myself can get you timely and helpful feedback!
+While projects are formally due every Friday, if you have recurring family or work responsibilities on Fridays, please let the instructor know as soon as possible, and we can work out a more feasible deadline for your situation. The value in a schedule is not usually the exact hard deadlines but rather in ensuring that our learning proceeds together, at a reasonable pace. The other importance of deadlines is ensuring that the graders and myself can get you timely and helpful feedback!
 
 ## Grading Information
 
