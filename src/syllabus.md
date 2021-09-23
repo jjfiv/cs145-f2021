@@ -196,13 +196,13 @@ This is quite a strange semester and time in the world -- this schedule represen
 
 Remember that Tuesdays and Thursdays (T/R) are lectures and Fridays are labs.
 
-| Week # | Date | DOW | Meeting | Lecture Topic |
-|--------|------|-----|---------|---------------|
+| Week # | Date | DOW | Lecture Topic |
+|--------|------|-----|---------------|
 | 1  | 14-Sep | T | What is CS? Expressions | 
 |    | 16-Sep | R | Variables & Function Calls | 
 |    | 17-Sep | F | Proj. 1 | 
-| 2  | 21-Sep | T | Conditionals & Functions | 
-|    | 23-Sep | R | More Functions | 
+| 2  | 21-Sep | T | Functions | 
+|    | 23-Sep | R | More Functions & Conditionals | 
 |    | 24-Sep | F | Proj. 2 | 
 | 3  | 28-Sep | T | Turtle; Loops | 
 |    | 30-Sep | R | More Loops | 
