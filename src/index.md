@@ -13,4 +13,4 @@ This site represents the course for Fall 2021.
 
 ## Syllabus
 
-See more detailed information about the course in the [online syllabus](/syllabus.html).
+See more detailed information about the course in the [online syllabus](./syllabus.html).
